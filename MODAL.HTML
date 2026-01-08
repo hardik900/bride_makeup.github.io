@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/a4fe4e6566.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .Button-trigger{
+    height: 230px;
+    width: 290px;
+    border-radius: 8px;
+} */
+
+.box{
+    margin: 20px 15px;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .box-1{
+    height: 230px;
+    width: 300px;
+    background-color: aqua;
+    margin: 10px; 
+} */
+
+.box img{
+    height: 230px;
+    width: 290px;
+    border-radius: 8px;
+}
+
+/* .box-2{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(184, 18, 18);
+    margin: 0px 10px;
+} */
+
+.box p{
+    text-align: center;
+    font-size: 22px;
+}
+
+.container::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    position: absolute;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+/* .close{
+    float: right;
+    background-color: white;
+    margin: 20px 3px;
+} */
+
+.div-2 img{
+    border-radius: 8px;
+    height:200px ; 
+    width: 40vw;
+}
+
+.div-3{
+    display: flex;
+    text-align: left;
+    line-height: 35px;
+    align-items: center;
+    font-size: 22px;
+    padding: 10px 10px;
+}
+
+.div-4{
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+}
+
+.div-4 button{
+    background-color: coral; 
+    color: black;
+}
+
+.div-4 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.div-1{
+    height: 28vh;
+    background-color: aqua;
+    border-radius: 10px ;
+    font-size: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+/* .Rm-button{
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: coral;
+    border: none;
+} */
+
+    </style>
+</head>
+<body>
+    <!------------------Courses------------------>
+    <div class="Courses-Container">
+        <!-- <h2 class="Center">Courses</h2> -->
+        <div class="Courses">
+
+            <!-----------Graphics----------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal">             <!-----class="Button-trigger"-->
+                <div class="box">
+                    <!-- <img src="Images/Laptop.jpg" alt=""> -->
+                    <TABLE>
+                        <tr>
+                            <td><button class="button">Book Now</button></td>
+                            <td><button class="button-icon"><i class="fa-solid fa-cart-shopping"></i></button></td>
+                        </tr>
+                    </TABLE>
+                    <p>Graphics Designing</p>    
+                </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1 "  data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">Graphics Designing</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 div-2 ">
+                                                <img src="Images/Laptop.jpg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 text-light div-3">
+                                                <p>
+                                                    Created by: Mansi Gupta <br>
+                                                    4.8<i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    (17,413 ratings) <br>
+                                                    47,802 students enrolled <br>
+                                                    Language: English,Hindi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 div-4">
+                                        <h1 class="mt-3 text-white">Adobe Illustrator CC</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+                                            dictum interdum, nisi lorem egestas vitae Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Ab laboriosam magni saepe tempora ex. Excepturi placeat possimus
+                                            corporis Lorem, ipsum dolor sit am
+                                        </p>
+                                        <button type="button" class="btn"><a href="https://www.youtube.com/">Read More</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" >
+                            <button type="button" class="btn btn-secondary m-3" style="float:right; background-color: coral; color: black; " data-bs-dismiss="modal">Buy Now</button>
+                            <button type="button" class="btn btn-light m-3"   style="float:right; ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------Animation-------------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-a">
+                <div class="box">
+                    <img src="Images/Laptop.jpg" alt="">
+                    <p>Animation</p>    
+                </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal-a" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">Animation</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 div-2 ">
+                                                <img src="Images/Laptop.jpg" class="img-fluid" style="height:200px ; width: 40vw;" alt="">
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 text-light div-3">
+                                                <p>
+                                                    Created by: Mansi Gupta <br>
+                                                    4.8<i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    (17,413 ratings) <br>
+                                                    47,802 students enrolled <br>
+                                                    Language: English,Hindi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 div-4">
+                                        <h1 class="mt-3 text-white">The 2021 Blender Primer</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+                                            dictum interdum, nisi lorem egestas vitae Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Ab laboriosam magni saepe tempora ex. Excepturi placeat possimus
+                                            corporis Lorem, ipsum dolor sit am
+                                        </p>
+                                        <button type="button" class="btn"><a href="https://www.youtube.com/">Read More</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" >
+                            <button type="button" class="btn btn-secondary m-3" style="float:right; background-color: coral; color: black; " data-bs-dismiss="modal">Buy Now</button>
+                            <button type="button" class="btn btn-light m-3"   style="float:right; ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Application -->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-b">
+                <div class="box">
+                    <img src="Images/Laptop.jpg" style="margin-top: 31px;" alt="">
+                    <p>Mobile Application Development</p>    
+                </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal-b" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">Mobile Application Development</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 div-2 ">
+                                                <img src="Images/Laptop.jpg" class="img-fluid" style="height:200px ; width: 40vw;" alt="">
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 text-light div-3">
+                                                <p>
+                                                    Created by: Mudit Tiwari <br>
+                                                    4.8<i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    (17,413 ratings) <br>
+                                                    47,802 students enrolled <br>
+                                                    Language: English,Hindi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 div-4">
+                                        <h1 class="mt-3 text-white">Flutter & Dart</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+                                            dictum interdum, nisi lorem egestas vitae Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Ab laboriosam magni saepe tempora ex. Excepturi placeat possimus
+                                            corporis Lorem, ipsum dolor sit am
+                                        </p>
+                                        <button type="button" class="btn"><a href="https://www.youtube.com/">Read More</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" >
+                            <button type="button" class="btn btn-secondary m-3" style="float:right; background-color: coral; color: black; " data-bs-dismiss="modal">Buy Now</button>
+                            <button type="button" class="btn btn-light m-3"   style="float:right; ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------Web Development------------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-c">
+                <div class="box">
+                    <img src="Images/Laptop.jpg" alt="">
+                    <p>Web Development</p>    
+                </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal-c" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">Web Development</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row ">
+                                    <h2 class="text-center text-white">Front End</h2>
+                                    <div class="col-10 col-md-5 div-1">Basic</div>
+                                    <div class="col-10 col-md-5 div-1">React JS</div>
+                                </div>
+                                <div class="row">
+                                    <h2 class="text-center text-white">Back End</h2>
+                                    <div class="col-10 col-md-5 div-1">D-Jango</div>
+                                    <div class="col-10 col-md-5 div-1">Node</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!------------Programming Language-------------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-d">
+                <div class="box">
+                    <a href="#"><img src="Images/Laptop.jpg" alt=""></a>
+                    <p>Programing Language</p>    
+                </div>
+            </div>
+
+            <!------------Modal---------------->
+            <div class="modal fade" id="exampleModal-d" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >
+                    <div class="modal-content " style="background-color: transparent; ">         <!--style="background-color: black; opacity: 0.8;"----->
+                    <div class="container m-auto ">
+                        <button type="button" class="btn-close my-3 mx-1 " style="float: right; background-color: white;" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <h3 class=" text-center my-3 mx-4 text-light ">Programming Language</h3>
+                        <h2 class=" text-center text-light my-0 mx-3" >Choose Your Language</h2>
+                    </div>
+                    <div class="modal-body mb-4 ">
+                        <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-10 col-md-5 div-1">C Language</div>
+                            <div class="col-10 col-md-5 div-1">C++</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 col-md-5 div-1">Java</div>
+                            <div class="col-10 col-md-5 div-1">Python</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 col-md-5 div-1">Java Script</div>
+                            <div class="col-10 col-md-5 div-1">Data Structure</div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- <div class="container " >
+                        <button type="button" class="btn btn-secondary m-3" style="float:right; " data-bs-dismiss="modal">Buy Now</button>
+                        <button type="button" class="btn btn-primary m-3" style="float:right; ">Add to cart</button>
+                    </div> -->
+                    </div>
+                </div>
+            </div> 
+
+            <!-------------UI/UX-------------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-e">
+            <div class="box">
+                <img src="Images/Laptop.jpg" alt="">
+                <p>UI/UX</p>    
+            </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal-e" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">UI/UX</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 div-2 ">
+                                                <img src="Images/Laptop.jpg" class="img-fluid" style="height:200px ; width: 40vw;" alt="">
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 text-light div-3">
+                                                <p>
+                                                    Created by: Bhawansh Jangir<br>
+                                                    4.8<i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    (17,413 ratings) <br>
+                                                    47,802 students enrolled <br>
+                                                    Language: English,Hindi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 div-4">
+                                        <h1 class="mt-3 text-white">Learn Figma</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+                                            dictum interdum, nisi lorem egestas vitae Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Ab laboriosam magni saepe tempora ex. Excepturi placeat possimus
+                                            corporis Lorem, ipsum dolor sit am
+                                        </p>
+                                        <button type="button" class="btn"><a href="https://www.youtube.com/">Read More</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" >
+                            <button type="button" class="btn btn-secondary m-3" style="float:right; background-color: coral; color: black; " data-bs-dismiss="modal">Buy Now</button>
+                            <button type="button" class="btn btn-light m-3"   style="float:right; ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------Robotics-------------->
+            <div data-bs-toggle="modal" data-bs-target="#exampleModal-f">
+            <div class="box">
+                <img src="Images/Laptop.jpg" alt="">
+                <p>Robotics</p>    
+            </div>
+            </div>
+
+            <!---------------Modal --------------->
+            <div class="modal fade " id="exampleModal-f" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" >                                        <!--modal-dialog-scrollable----->
+                    <div class="modal-content container" style="background-color: transparent; ">         
+                        <div class="container m-auto">
+                            <button type="button" class="btn-close float-end bg-white my-4 mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h1 class=" text-center my-2 mx-4 text-light ">Robotics</h1>
+                        </div>
+                        <div class="modal-body ">                                        
+                            <div class="container-fluid ">
+                                <div class="row">
+                                    <div class="col-md-12 ">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-md-4 div-2 ">
+                                                <img src="Images/Laptop.jpg" class="img-fluid" style="height:200px ; width: 40vw;" alt="">
+                                            </div>
+                                            <div class="col-sm-12 col-md-8 text-light div-3">
+                                                <p>
+                                                    Created by: Bhawansh Jangir<br>
+                                                    4.8<i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    (17,413 ratings) <br>
+                                                    47,802 students enrolled <br>
+                                                    Language: English,Hindi
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 div-4">
+                                        <h1 class="mt-3 text-white">Robotics Drives & Physics</h1>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et
+                                            dictum interdum, nisi lorem egestas vitae Lorem ipsum dolor sit, amet consectetur
+                                            adipisicing elit. Ab laboriosam magni saepe tempora ex. Excepturi placeat possimus
+                                            corporis Lorem, ipsum dolor sit am
+                                        </p>
+                                        <button type="button" class="btn"><a href="https://www.youtube.com/">Read More</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container" >
+                            <button type="button" class="btn btn-secondary m-3" style="float:right; background-color: coral; color: black; " data-bs-dismiss="modal">Buy Now</button>
+                            <button type="button" class="btn btn-light m-3"   style="float:right; ">Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+</html>

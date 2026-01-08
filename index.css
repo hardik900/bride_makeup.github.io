@@ -1,0 +1,388 @@
+header {
+    display: block;
+}
+
+.head {
+    display: flex;
+    margin: 25px 10px;
+}
+
+.head-left {
+    display: flex;
+}
+
+.head-left a {
+    color: black;
+}
+
+.head-left p {
+    padding: 0px 8px;
+    font-size: 18px;
+}
+
+.head-right a {
+    color: black;
+}
+
+.head-right i {
+    padding: 0px 8px;
+}
+
+.heading {
+    margin: auto;
+}
+
+.header-ul ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: black;
+}
+
+.header-ul ul li {
+    padding: 5px 20px;
+}
+
+.header-ul ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header-ul ul li a:hover {
+    color: green;
+}
+
+.header-ul ul li a:active {
+    color: red;
+}
+
+.hello {
+    display: none;
+}
+
+.nav-hover {
+    display: block;
+    margin: auto;
+    /* background-color: rgb(255, 255, 255); */
+    text-decoration: none;
+    color: black;
+}
+
+.nav-hover:hover {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+.Sohni-container {
+    display: flex;
+    margin: 50px 0px 20px 0px;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1 {
+    padding: 10px 50px 10px 90px;
+}
+
+.content-1 p {
+    font-size: 20px;
+}
+
+.content-1 button {
+    border-radius: 20px;
+    padding: 6px 18px;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+
+.slider {
+    width: 40%;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+}
+
+.slider-width {
+    width: 80%;
+    /* height: 600px; */
+}
+
+.info-container {
+    width: 80%;
+    margin: 40PX auto;
+}
+
+.info-container-d-none {
+    display: none;
+}
+
+.book-services-table {
+    width: 70%;
+    /* background-color: aqua; */
+    margin: auto;
+}
+
+.book-services-table td {
+    padding: 15px 5px;
+}
+
+.book-services-table td .button {
+    border-radius: 18px;
+    padding: 4px 12px;
+    color: black;
+}
+
+.book-services-table td .button-icon {
+    display: none;
+}
+
+.book-services-table td .button  a {
+    text-decoration: none;
+    color: black;
+}
+
+.book-services-table td .button-icon a {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width:300px) and (max-width:768px) {
+    header {
+        display: none;
+    }
+
+    .hello {
+        display: block;
+    }
+
+    .content {
+        display: none;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .info-container {
+        width: 100%;
+        /* margin: 0px; */
+    }
+
+    .info-container-d-none {
+        display: block;
+    }
+
+    .book-services-table {
+        width: 100%;
+    }
+
+    .book-services-table td .button {
+        display: none;
+        border-radius: 18px;
+        padding: 4px 12px;
+    }
+
+    .book-services-table td .button-icon {
+        display: block;
+        border-radius: 18px;
+        padding: 4px 12px;
+    }
+}
+
+.footer{
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.kk{
+    display: block;
+}
+
+.footer-ul ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: black;
+}
+
+.footer-ul ul li {
+    padding: 5px 20px;
+}
+
+.footer-ul ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer-ul ul li a:hover {
+    color: green;
+}
+
+.footer-ul ul li a:active {
+    color: red;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+}
+
+.div-y{
+    display: inline-block;
+}
+
+.hh{
+    display: none;
+}
+
+.ll{
+    display: inline-block;
+}
+
+.div-z ul{
+    list-style: none;
+    display: none;
+}
+
+.div-z ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.AA{
+    display: none;
+}
+
+.links a{
+    color:black;
+    margin: 6px 15px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:768px) {
+    .kk{
+        display: none;
+    }
+
+    .footer-ul ul{
+        display: none;
+    }
+    /* .detail{
+        flex-direction: column;
+    } */
+
+    .div-x{
+        padding: 0px 12px;
+        font-size: 13px;
+        /* background-color: rgb(139, 139, 172); */
+    }
+
+    .div-y{
+        display: none;
+    }
+
+    .hh{
+        display: block;
+    }
+
+    .ll{
+        display: none;
+    }
+
+    .div-z{
+        padding: 0px 15px;
+        font-size: 13px;
+        /* background-color: aqua; */
+    }
+
+    .div-z ul{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .AA{
+        display: block;
+    }
+
+    .links a{
+        font-size: 5vw;
+        margin: 6px 10px ;
+    }
+}
+
+.container-1::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    position: absolute;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+}
+
+/* .close{
+    float: right;
+    background-color: white;
+    margin: 20px 3px;
+} */
+
+.div-2 img{
+    border-radius: 8px;
+    height:200px ; 
+    width: 40vw;
+}
+
+.div-3{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* line-height: 35px; */
+    justify-content: center;
+    /* align-items: center; */
+    /* font-size: 22px; */
+    padding: 10px 10px;
+}
+
+.div-4{
+    font-size: 20px;
+    color:white;
+    text-align: justify;
+}
+
+.div-4 button{
+    background-color: coral; 
+    color: black;
+}
+
+.div-4 button a{
+    text-decoration: none;
+    color: black;
+}
+
+.div-1{
+    height: 28vh;
+    background-color: aqua;
+    border-radius: 10px ;
+    font-size: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }

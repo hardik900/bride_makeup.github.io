@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/277bca8dc9.js" crossorigin="anonymous"></script>
+
+    <title>Services</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+
+    <style>
+        .EE {
+            margin: 9px;
+        }
+
+        .services {
+            padding: 5px 20px;
+            text-align: justify;
+            font-size: 1.3vw;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            margin: 5px 30px;
+        }
+
+        #change-container {
+            border: 2px solid rgb(0, 0, 0);
+            width: 80%;
+            margin: 15px auto;
+        }
+
+        #change {
+            display: flex;
+        }
+
+        #change-im {
+            padding: 20px 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #change-img {
+            width: 22vw;
+        }
+
+        #change-text {
+            padding: 20px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+            font-size: 1.2vw;
+        }
+
+        #view {
+            background-color: grey;
+            color: white;
+            border-radius: 18px;
+            padding: 5px 16px;
+            margin: 15px auto;
+            cursor: pointer;
+            width: 15vw;
+            text-align: center;
+        }
+
+        @media screen and (max-width:768px) {
+            .EE {
+                margin-top: 58px;
+            }
+
+            .services {
+                padding: 5px 12px;
+                font-size: 2vw;
+            }
+
+            .button {
+                margin: 5px 6px;
+                padding: 3px 8px;
+                font-size: 13px;
+            }
+
+            #change {
+                flex-direction: column;
+            }
+
+            #change-im {
+                padding: 15px 10px;
+                margin: auto;
+            }
+
+            #change-img {
+                width: 25vw;
+            }
+
+            #change-text {
+                padding: 5px 15px;
+                font-size: 2.3vw;
+            }
+            #view {
+                padding: 5px 16px;
+                margin: 10px auto;
+                cursor: pointer;
+                width: 25vw;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="head-left">
+                <a href="tel:+911234567890"><i class="fa-solid fa-2x fa-phone"></i></a>
+                <p>+91 1234567890</p>
+            </div>
+            <h1 class="heading">SOHNI JUNEJA</h1>
+            <div class="head-right">
+                <a href=""><i class="fa-brands fa-2x fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-2x fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-2x fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-solid fa-2x fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="header-ul">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+<!--                 <li><a href="Media.html">Media</a></li>
+                <li><a href="Blog.html">Blog</a></li> -->
+                <li><a href="Contacts-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg fixed-top hello bg-white" style="box-shadow: 1px 1px 5px rgb(0, 0, 0); ">
+        <div class="container-fluid bg-white" style="border-radius: 0px 0px 20px 20px  ;">
+            <div>
+                <h4 class="text-dark m-auto">SOHNI JUNEJA</h4>
+            </div>
+            <div>
+                <span><a href="tel:+911234567890 " style="color: black ;"><i class="fa-solid fa-phone"></i></a></span>
+                <span class="navbar-toggler" style="color: black;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars"></span>
+                </span>
+            </div>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <center>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active nav-hover mt-1" aria-current="page" style=" border-radius: 5px;"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="About-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Services.html">Services</a>
+                        </li>
+<!--                         <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Media.html">Media</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Exam-papers.html">Album</a>
+                        </li> -->
+<!--                         <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Blog.html">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </nav>
+
+    <div class="services container">
+        <h2 class="text-center EE ">Services</h2>
+        <p>
+            Sohni Juneja is a well Known Makeup Artist in Delhi for doing professional bridal makeup, party makeup and
+            hairstyling. Her bridal services are tailored to meet the needs and requirements of the clients. Sohni J
+            provides hairstyling, engagement makeup, bridal makeup as well as party makeup services. In addition to
+            these, she also provides bridal makeup appointment, pre- wedding makeup tips, product recommendation to get
+            the best of your look on your special day. Apart from the services, she also gives you special offers in
+            hairstyling as well as bridal makeup.
+        </p>
+        <p>
+            Professional makeup artist, Sohni Juneja not only provides you all the services at her makeup studio but
+            also at your respective venue. To give you smooth and hassle free makeover experience, she also travels
+            within the city, outstations and at your doorstep as well.
+        </p>
+    </div>
+
+    <div class="button-container">
+        <button class="btn btn-primary button" type="button" onclick="myfunction1()">HAIR STYLING</button>
+        <button class="btn btn-primary button" type="button" onclick="myfunction2()">BRIDAL MAKEUP</button>
+        <button class="btn btn-primary button" type="button" onclick="myfunction3()">PARTY MAKEUP</button>
+        <button class="btn btn-primary button" type="button" onclick="myfunction4()">OFFERS</button>
+    </div>
+
+    <script>
+        function myfunction1() {
+            document.getElementById("change-img").src = "Hair-styling.png";
+            document.getElementById('change-heading').innerHTML = 'HAIR STYLING';
+            document.getElementById('change-text').innerHTML = 'Sohni Juneja is a renowned professional makeup artist in Dehradun and Delhi. Having enormous knowledge about makeup and styling, she very well knows how to give attractive and charming look to her clients. She has been involved in providing her services of makeover to some well known T.V artists as well as celebs. She is successfully transforming lives of the women by making them beautiful. <br><br>Get sensational look and let everyone adore your beauty with Delhi best makeup artist at affordable rates. Call us or book your appointment with Best wedding Makeup Artist in Delhi.<br><br>As Makeup plays an important role in glamorizing the look of a person. It is always a great desire of every woman to look her best on her special day.<br><br>From the elaborate and traditional, to the trendy and quirky, our experienced hands can give any twist to your tresses. Sohni Juneja provides hair style & hair extension service from eccentric to knotty, to cultural and with latest tradition, you can get adorable look so that every eye can appreciate your look on the big day.';
+            // document.getElementById('view').innerHTML = 'View Gallery';
+        }
+
+        function myfunction2() {
+            document.getElementById("change-img").src = "bridal-makeup.webp";
+            document.getElementById('change-heading').innerHTML = 'BRIDAL MAKEUP';
+            // document.getElementById('view').innerHTML = 'View Gallery';
+            document.getElementById('change-text').innerHTML = 'A wedding is an auspicious occasion for everyone’s life because it won’t come again. It is a lifetime opportunity and every girl wants the best look on her special day. Well-known professional makeup artist in Dehradun and Delhi, Sohni J offers exclusive bridal makeup services to her clients. She is an expert in grooming her brides. She very well understands the hidden feelings of the brides as the occasion of marriage is very special. In the case of bridal makeup, one can’t take the chance that’s why every girl chooses the bridal makeup services available. <br> <br> Sohni J provides makeup service to the brides by using high-quality makeup products so that the bride can get the long-lasting look. She is also well known to provide image makeovers through her majestic makeup tricks. <br><br> Each and every type of Bridal Makeup Service is given by Wedding Makeup Artist, Sohni Juneja. Not only at her makeup studio but also she provided her services at the respective venue of the clients. <br><br> Get a sensational look and let everyone adore your beauty with Delhis best makeup artist at affordable rates. Call us or book your appointment with Best Wedding Makeup Artist in Delhi.';
+        }
+
+        function myfunction3() {
+            document.getElementById("change-img").src = "party-makeup.png";
+            document.getElementById('change-heading').innerHTML = 'PARTY MAKEUP'
+            // document.getElementById('view').innerHTML = 'View Gallery';
+            document.getElementById('change-text').innerHTML = 'Not sure of what makeup you should wear for your friends Mehndi tomorrow? we are happy to help. Sohni Juneja Party makeover will definitely make you the center of attraction of the Party. If you want amazing makeup styles, then you are at the right place. As trends change rapidly with the changing time. Professional makeup artist, Sohni Juneja provides makeup with the best products that suit your skin perfectly and cover all the imperfections of the skin <br> <br> Latest makeup techniques are used in providing the best ever makeup by Sohni Juneja. She has exclusive beauty product packs to offer her clients so that their skin will look fresh and attractive. So, if you are going to someone’s party but seems to be confused about the perfect look you should have for the party, then make an appointment with Sohni Juneja and be prepared for the wonderful amazing look you wish to achieve. You can fix your Makeup appointment at our saloon or get the Best Makeup artist in Dehradun and Delhi at home. <br> <br>Get a sensational look and let everyone adore your beauty with Delhi s best makeup artist at affordable rates. Call us or book your appointment with Best Party & Event Makeup Artist in Delhi.';
+        }
+
+        function myfunction4() {
+            document.getElementById("change-img").src = "offers.png";
+            document.getElementById('change-heading').innerHTML = 'OFFERS'
+            document.getElementById('change-text').innerHTML = 'With every 3 makeup looks, get a free day of makeup. For every 4 hairstyles, you get a hairstyle free.Sohni Juneja makes sure her client’s makeup makes them all ready for the party. Girls or women, everybody wants to be the center of attraction at a party or on a special day, then try out Sohni Junejas makeup service. Here, you will get a sensational look as she will give you the makeup look that suits you.<br><br> Get a sensational look and let everyone adore your beauty with the best makeup artist in Dehradun and Delhi at affordable rates. Call us or book your appointment with Top Makeup Artist in Delhi.';
+        }
+    </script>
+    <div id="change-container">
+        <h3 id="change-heading" class="text-center my-3">HAIR STYLING</h3>
+        <div id="change">
+            <div id="change-im">
+                <img id="change-img" src="Hair-styling.png" alt="">
+            </div>
+            <div>
+                <div id="change-text">
+                    <p>
+                        Sohni Juneja is a renowned professional makeup artist in Dehradun and Delhi. Having enormous
+                        knowledge about makeup and styling, she very well knows how to give attractive and charming look
+                        to
+                        her clients. She has been involved in providing her services of makeover to some well known T.V
+                        artists as well as celebs. She is successfully transforming lives of the women by making them
+                        beautiful.
+                    </p>
+                    <p>
+                        Get sensational look and let everyone adore your beauty with Delhi best makeup artist at
+                        affordable
+                        rates. Call us or book your appointment with Best wedding Makeup Artist in Delhi.
+                    </p>
+                    <p>
+                        As Makeup plays an important role in glamorizing the look of a person. It is always a great
+                        desire
+                        of every woman to look her best on her special day.
+                    </p>
+                    <p>
+                        From the elaborate and traditional, to the trendy and quirky, our experienced hands can give any
+                        twist to your tresses. Sohni Juneja provides hair style & hair extension service from eccentric
+                        to
+                        knotty, to cultural and with latest tradition, you can get adorable look so that every eye can
+                        appreciate your look on the big day.
+                    </p>
+                </div>
+                <div id="view">
+                    View Gallery
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h4 class="text-center kk pt-2">Useful links</h4>
+        <div class="footer-ul">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Media.html">Media</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contacts-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div class="col-6 col-md-4 col-lg-4 p-lg-3 div-x">
+                <h5 class="AA pt-2">Contact-us</h5
+                <a href="tel:+911234567890" style=" margin:6px; color: black; text-decoration: none "><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; +91-9999963537</a> 
+                <span class="hh" style="margin: 6px;"><i class="fa-solid fa-location-dot "></i>&nbsp;&nbsp;&nbsp;R - 255, 2nd Floor, G K- 1, Delhi - 110048</span> 
+                <span class="hh" style="margin: 6px;"><i class="fa-solid fa-location-dot "></i>&nbsp;&nbsp;&nbsp;123, lane, opp. Sai Temple, Emerald Hills, Dehradun- 248001</span>
+            </div>
+            <div class="col-lg-4 col-md-4 div-y">
+                <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;R - 255, 2nd Floor, G K- 1, Delhi - 110048
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 div-z p-0 m-0 ">
+                <h5 class="AA pt-2 ">Useful links</h5>
+                <span class="ll"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;123, lane, opp. Sai Temple, Emerald Hills, Dehradun- 248001</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About-us.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contacts-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="links">
+                <center>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </center>
+                <p class="text-center">copyright@sohnijuneja.com</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>

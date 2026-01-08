@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/277bca8dc9.js" crossorigin="anonymous"></script>
+    <title>About Us</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .EE{
+            margin: 5px;
+        }
+
+        .About {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .About-img img {
+            padding: 5px 15px;
+            width: 35vw;
+        }
+
+        .About-text {
+            padding: 5px 20px;
+            text-align: justify;
+            font-size: 1.3vw;
+        }
+
+        .text {
+            padding: 5px 20px;
+            text-align: justify;
+            font-size: 1.3vw;
+            margin: 20px 0px;
+        }
+
+        .Famous{
+            padding: 5px 20px;
+            text-align: justify;
+            font-size: 1.3vw;
+        }
+        @media screen and (max-width:550px) {
+            .EE{
+                margin-top: 58px;
+            }
+            .About {
+                flex-direction: column;
+            }
+
+            .About-img img {
+                padding: 3px 10px;
+                width: 35vw;
+            }
+
+            .About-text {
+                padding: 5px 12px;
+                font-size: 2vw;
+            }
+
+            .text {
+                padding: 5px 12px;
+                font-size: 2vw;
+                margin: 0px 0px;
+            }
+
+            .Famous{
+                padding: 5px 12px;
+                font-size: 2vw;
+            }
+
+            .famous-heading{
+                font-size: 15px;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="head-left">
+                <a href="tel:+911234567890"><i class="fa-solid fa-2x fa-phone"></i></a>
+                <p>+91 1234567890</p>
+            </div>
+            <h1 class="heading">SOHNI JUNEJA</h1>
+            <div class="head-right">
+                <a href=""><i class="fa-brands fa-2x fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-2x fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-2x fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-solid fa-2x fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="header-ul">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+<!--                 <li><a href="Media.html">Media</a></li>
+                <li><a href="Blog.html">Blog</a></li> -->
+                <li><a href="Contacts-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg fixed-top hello bg-white" style="box-shadow: 1px 1px 5px rgb(0, 0, 0); ">
+        <div class="container-fluid bg-white" style="border-radius: 0px 0px 20px 20px  ;">
+            <div>
+                <h4 class="text-dark m-auto">SOHNI JUNEJA</h4>
+            </div>
+            <div>
+                <span><a href="tel:+911234567890 " style="color: black ;"><i class="fa-solid fa-phone"></i></a></span>
+                <span class="navbar-toggler" style="color: black;" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="fa-solid fa-bars"></span>
+                </span>
+            </div>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <center>
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link active nav-hover mt-1" aria-current="page" style=" border-radius: 5px;"
+                                href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="About-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Services.html">Services</a>
+                        </li>
+<!--                         <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Media.html">Media</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Exam-papers.html">Album</a>
+                        </li> -->
+<!--                         <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Blog.html">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link active nav-hover" aria-current="page" style="border-radius: 5px;"
+                                href="Contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </center>
+            </div>
+        </div>
+    </nav>
+
+    <div class="About-container">
+        <h2 class="text-center EE">About Us</h2>
+        <div class="About">
+            <div class="About-img">
+                <img src="img_about.webp" alt="">
+            </div>
+            <div class="About-text">
+                <p>
+                    Sohni Juneja, a product of National Institute of Fashion Technology (Delhi) where she got her
+                    proficiency in her passion for Designing and Styling. During the tenure of the course, she interned
+                    with the Designer Duo, Aashima and Leena and later joined the prestigious label of Designer
+                    Raghavendra Rathore as a stylist and made her presence felt.
+                </p>
+
+                <p>
+                    You made me feel so comfortable (not to forget the soft brush touch, asmr feeling), I couldn't have
+                    picked a better makeup artist.
+                </p>
+
+                <p>
+                    Her Quest for adding more feathers to her cap and wanting to have the ability to give people a whole
+                    body makeover took her to Pearl Academy, in association with Developments at London Institute (DALI)
+                    at London College of Fashion, where she took up Fashion Media Makeup and topped her Batch.
+                </p>
+
+                <p>
+                    Emoting with the feminine desires of looking their best on their special day, Sohni Juneja has vowed
+                    many a bride with her power to transform. She understands what works on models for the runways must
+                    be translated differently for the everyday woman. With her dainty, yet sure strokes she can take you
+                    to ̰ completely different
+                </p>
+
+                <p>
+                    realms, from Smokey to well-defined, she masters it all, wanting to add drama to each look
+                    differently every time.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="text">
+        <p>
+            Her immense innovation when it comes fashion/catwalk makeup has also made her one of the most sought after
+            with fashion photographers like Sarang Sena known for professionalism and versatility. Sohni did 54 shoots
+            for a famous modeling agency in 5 days in Goa. Alongside she is also working as a Freelancer for renowned
+            international magazines like Grazia, and other modeling agencies. Her constant innovation has also gave her
+            opportunity to showcase her excellece in Styling and Makeup at fashion shows.
+        </p>
+
+        <p>
+            Having a keen interest in sharing her knowledge about the same Sohni Juneja also takes regular sessions in
+            various finishing schools across the country. Sohni Juneja is one on the best Bridal makeup artist in South
+            Delhi and providing her professional services all over india.
+        </p>
+
+        <p>
+            Sohni Juneja has been awarded The Garhwal post - Daughters of Uttarakhand award for Excellence in the art of
+            makeup from his Excellency The Governor of Uttarakhand. She was also awarded Woman Achiever's Award 2018
+            organised by Amar Ujaala.
+        </p>
+    </div>
+
+    <div class="Famous">
+        <h3 class="famous-heading">Famous Bridal Makeup Artist In Delhi</h3>
+        <p>
+            Sohni Juneja is an extremely famous bridal makeup artist in Delhi. A professional with experience, Sohni
+            Juneja is skilled and truly an expert in every sense of the word. Creative and incredibly passionate, she
+            transforms every bride into nothing short of a dream. With her professionalism, Sohni Juneja can hide
+            anything you consider a shortcoming, and assist you to exude an unmatched level of confidence.
+        </p>
+
+        <p>
+            She is the makeup artist you need if you're in search of a glam look for your wedding day. Each bride is
+            unique and so are her needs. To exhibit the beauty of her clients, she grasps the essence of this
+            understanding.
+        </p>
+    </div>
+
+    <div class="footer">
+        <h4 class="text-center kk pt-2">Useful links</h4>
+        <div class="footer-ul">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-us.html">About Us</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Media.html">Media</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contacts-us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="detail">
+            <div class="col-6 col-md-4 col-lg-4 p-lg-3 div-x">
+                <h5 class="AA pt-2">Contact-us</h5
+                <a href="tel:+911234567890" style=" margin:6px; color: black; text-decoration: none "><i class="fa-solid fa-phone"></i>&nbsp;&nbsp; +91-9999963537</a> 
+                <span class="hh" style="margin: 6px;"><i class="fa-solid fa-location-dot "></i>&nbsp;&nbsp;&nbsp;R - 255, 2nd Floor, G K- 1, Delhi - 110048</span> 
+                <span class="hh" style="margin: 6px;"><i class="fa-solid fa-location-dot "></i>&nbsp;&nbsp;&nbsp;123, lane, opp. Sai Temple, Emerald Hills, Dehradun- 248001</span>
+            </div>
+            <div class="col-lg-4 col-md-4 div-y">
+                <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;R - 255, 2nd Floor, G K- 1, Delhi - 110048
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 div-z p-0 m-0 ">
+                <h5 class="AA pt-2 ">Useful links</h5>
+                <span class="ll"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;123, lane, opp. Sai Temple, Emerald Hills, Dehradun- 248001</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About-us.html">About Us</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Media.html">Media</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contacts-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="links">
+                <center>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                </center>
+                <p class="text-center">copyright@sohnijuneja.com</p>
+        </div>
+    </div>
+</body>
+
+</html>
